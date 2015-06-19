@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Algorithms-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B2AC33C51B33EB72006F803C"
+               BuildableName = "Algorithms-SwiftUITests.xctest"
+               BlueprintName = "Algorithms-SwiftUITests"
+               ReferencedContainer = "container:Algorithms-Swift.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -37,16 +51,11 @@
                BlueprintName = "Algorithms-SwiftTests"
                ReferencedContainer = "container:Algorithms-Swift.xcodeproj">
             </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B2AC33C51B33EB72006F803C"
-               BuildableName = "Algorithms-SwiftUITests.xctest"
-               BlueprintName = "Algorithms-SwiftUITests"
-               ReferencedContainer = "container:Algorithms-Swift.xcodeproj">
-            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "StackNodeOfTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

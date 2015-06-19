@@ -13,7 +13,9 @@
 		B2AC33B21B33EB71006F803C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AC33B11B33EB71006F803C /* Assets.xcassets */; };
 		B2AC33B51B33EB71006F803C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AC33B31B33EB71006F803C /* LaunchScreen.storyboard */; };
 		B2AC33C01B33EB72006F803C /* Algorithms_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC33BF1B33EB72006F803C /* Algorithms_SwiftTests.swift */; };
-		B2AC33CB1B33EB72006F803C /* Algorithms_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC33CA1B33EB72006F803C /* Algorithms_SwiftUITests.swift */; };
+		B2AC33D91B3470AA006F803C /* StackNodeOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC33D81B3470AA006F803C /* StackNodeOf.swift */; };
+		B2AC33DA1B3470AA006F803C /* StackNodeOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC33D81B3470AA006F803C /* StackNodeOf.swift */; };
+		B2AC33DC1B34718E006F803C /* StackNodeOfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AC33DB1B34718E006F803C /* StackNodeOfTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +47,8 @@
 		B2AC33BF1B33EB72006F803C /* Algorithms_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftTests.swift; sourceTree = "<group>"; };
 		B2AC33C11B33EB72006F803C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AC33C61B33EB72006F803C /* Algorithms-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algorithms-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2AC33CA1B33EB72006F803C /* Algorithms_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms_SwiftUITests.swift; sourceTree = "<group>"; };
-		B2AC33CC1B33EB72006F803C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AC33D81B3470AA006F803C /* StackNodeOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackNodeOf.swift; sourceTree = "<group>"; };
+		B2AC33DB1B34718E006F803C /* StackNodeOfTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackNodeOfTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,6 @@
 			children = (
 				B2AC33A91B33EB71006F803C /* Algorithms-Swift */,
 				B2AC33BE1B33EB72006F803C /* Algorithms-SwiftTests */,
-				B2AC33C91B33EB72006F803C /* Algorithms-SwiftUITests */,
 				B2AC33A81B33EB71006F803C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +104,7 @@
 				B2AC33B11B33EB71006F803C /* Assets.xcassets */,
 				B2AC33B31B33EB71006F803C /* LaunchScreen.storyboard */,
 				B2AC33B61B33EB72006F803C /* Info.plist */,
+				B2AC33D81B3470AA006F803C /* StackNodeOf.swift */,
 			);
 			path = "Algorithms-Swift";
 			sourceTree = "<group>";
@@ -112,17 +114,9 @@
 			children = (
 				B2AC33BF1B33EB72006F803C /* Algorithms_SwiftTests.swift */,
 				B2AC33C11B33EB72006F803C /* Info.plist */,
+				B2AC33DB1B34718E006F803C /* StackNodeOfTests.swift */,
 			);
 			path = "Algorithms-SwiftTests";
-			sourceTree = "<group>";
-		};
-		B2AC33C91B33EB72006F803C /* Algorithms-SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B2AC33CA1B33EB72006F803C /* Algorithms_SwiftUITests.swift */,
-				B2AC33CC1B33EB72006F803C /* Info.plist */,
-			);
-			path = "Algorithms-SwiftUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2AC33AD1B33EB71006F803C /* ViewController.swift in Sources */,
+				B2AC33D91B3470AA006F803C /* StackNodeOf.swift in Sources */,
 				B2AC33AB1B33EB71006F803C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AC33DC1B34718E006F803C /* StackNodeOfTests.swift in Sources */,
 				B2AC33C01B33EB72006F803C /* Algorithms_SwiftTests.swift in Sources */,
+				B2AC33DA1B3470AA006F803C /* StackNodeOf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2AC33CB1B33EB72006F803C /* Algorithms_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +479,7 @@
 				B2AC33D11B33EB72006F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AC33D21B33EB72006F803C /* Build configuration list for PBXNativeTarget "Algorithms-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +488,7 @@
 				B2AC33D41B33EB72006F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AC33D51B33EB72006F803C /* Build configuration list for PBXNativeTarget "Algorithms-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +497,7 @@
 				B2AC33D71B33EB72006F803C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
